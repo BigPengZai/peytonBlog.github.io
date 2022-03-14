@@ -25,7 +25,7 @@ module.exports = {
     ],
   ],
 
-  theme: "melodydl",
+  theme: "peyton",
   themeConfig: {
     title: "Peyton Blog",
 
@@ -38,7 +38,8 @@ module.exports = {
         "climb the top of the mountain,<br/>don't stand at the foot<br/>有志登山顶，无志站山脚",
       email: "peytonpeng1990@163.com",
       location: "Shanghai, China",
-      // organization: '',
+      phonenumber: "15052851735",
+      // organization: '不知名某公司',
     },
     // Nav link
     nav: [
@@ -50,12 +51,12 @@ module.exports = {
       home: {
         title: "Peyton Blog",
         subtitle: "TODO跨越知道和做到的鸿沟",
-        headerImage: "/avatar-bg.jpeg",
+        headerImage: "/home-bg.jpeg",
       },
       tags: {
         title: "Tags",
-        subtitle: "遇见你花光了我所有的运气",
-        headerImage: "/tags-bg.jpg",
+        subtitle: "I am unstoppable",
+        headerImage: "/tags-bg.jpeg",
       },
       postHeaderImg: "/post-bg.jpeg",
     },
@@ -65,40 +66,39 @@ module.exports = {
         account: "juejin",
         link: "https://juejin.cn/user/1820446983193261",
       },
-      zhihu: {
-        account: "zhihu",
-        link: "https://www.zhihu.com/people/sheng-tang-de-xing-kong",
+      mayun: {
+        account: "mayun",
+        link: "https://gitee.com/pengpenghaode",
       },
       github: {
         account: "github",
-        link: "https://github.com/youdeliang",
+        link: "https://github.com/BigPengZai",
       },
     },
-
     // footer github button
     footer: {
       gitbtn: {
         repository:
-          "https://ghbtns.com/github-btn.html?user=youdeliang&repo=vuepress-theme-melodydl&type=star&count=true",
+          "https://ghbtns.com/github-btn.html?user=BigPengZai&repo=vuepress-theme-peyton&type=star&count=false",
         frameborder: 0,
         scrolling: 0,
         width: "80px",
         height: "20px",
       },
-      custom: `Copyright &copy; Top Blog 2020 <br /> 
-        Theme By <a href="https://www.vuepress.cn/" target="_blank">VuePress</a>
-        | <a href="https://www.github.com/youdeliang/" target="_blank">youdeliang</a>`,
+      custom: `Copyright &copy; Peyton Blog 2020 <br />
+          Theme By <a href='https://www.vuepress.cn/' target='_blank'>VuePress</a>
+          | <a href='https://github.com/BigPengZai/' target='_blank'>peyton</a>`,
     },
     pagination: {
       perPage: 5,
     },
-
     comments: {
-      owner: "youdeliang",
-      repo: "vuepress-theme-melodydl",
-      clientId: "dfba8ecad544784fec1f",
-      clientSecret: "1358ac11bc8face24f598601991083e27372988d",
-      autoCreateIssue: false,
+      platform: "github-v4",
+      owner: "BigPengZai",
+      repo: "vuepress-theme-peyton",
+      clientId: "79e80b9a02a90bf91feb",
+      clientSecret: "b71c6c25fcd860f951137b59535657a67e4133bb",
+      autoCreateIssue: true,
     },
   },
 };

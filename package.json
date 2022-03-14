@@ -11,6 +11,6 @@
   "license": "ISC",
   "dependencies": {
     "vuepress": "^1.9.7",
-    "vuepress-theme-melodydl": "^1.1.2"
+    "vuepress-theme-peyton": "^1.0.2"
   }
 }
