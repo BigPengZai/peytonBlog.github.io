@@ -12,5 +12,6 @@
   "dependencies": {
     "vuepress": "^1.9.7",
     "vuepress-theme-peyton": "^1.0.2"
-  }
+  },
+  "repository": "https://github.com/BigPengZai/peytonBlog.github.io.git"
 }
